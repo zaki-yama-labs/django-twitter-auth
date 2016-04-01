@@ -48,7 +48,6 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'twitter_sample.middleware.SocialAuthExceptionMiddleware',
 )
 
 AUTHENTICATION_BACKENDS = [
